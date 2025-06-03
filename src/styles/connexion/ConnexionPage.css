@@ -1,0 +1,391 @@
+* {
+    font-family: 'Poppins';
+}
+
+
+                            /* CSS HOME BLOCK */
+
+
+
+.HomePageContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8% 8%;
+}
+
+/* .HomePageContainer > .HomePageContainerFirstChild {
+    /* border: 4px solid green; */
+    /* margin-left: 8%;
+} */
+
+/* .HomePageContainerSecondChild {
+    /* border: 4px solid yellow; */
+    /* margin-right: 8%; */
+    /* padding: 1% 1%; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 10px #D1D5DB;
+} */
+
+.HomePageContainerSecondChild > div {
+    /* border: 1px solid red; */
+    /* margin-right: 8%; */
+    padding: 4% 4%;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0px 0px 10px #D1D5DB;
+}
+
+.HomePageContainerSecondChild > .HelloContainer > .SalutContainer > p {
+    /* border: 1px solid red; */
+    font-family: 'Poppins SemiBold';
+    font-size: 2rem;
+    color: black;
+}
+
+/* .HomePageContainerSecondChild > .BoutonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 4px;
+} */
+
+.HomePageContainerSecondChild > .HelloContainer > .SalutContainer > h6 {
+    /* border: 1px solid blue; */
+    font-family: 'Poppins SemiBold';
+    font-size: 0.9rem;
+    color: #71717A;
+    margin-bottom: 40px;
+}
+
+.BoutonContainer > .ConnexionContainer > Button {
+    background-color: #C886D3;
+    font-size: 1rem;
+    color: white;
+    /* width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: 'Poppins SemiBold';
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;*/
+    margin-bottom: 8px;
+}
+
+.BoutonContainer > .CreateAcntContainer > Button {
+    background-color: #E9E8FF;
+    font-size: 1rem;
+    color: #C886D3;
+    margin-top: 7px;
+    /* width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: 'Poppins SemiBold';
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center; */
+}
+
+
+
+
+                                /* CSS CONNEXION BLOCK */
+
+
+
+/*.CnxContainer {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin-right: 8%;
+    padding: 1% 1%;
+    box-shadow: 0px 0px 10px #D1D5DB; */
+    /* padding: 4% 4%;
+    width: 100%;
+    height: 100%; 
+}*/
+
+/*.CnxContainer > .IllustrationContainer > img {
+    border: 1px solid blue;
+    margin-left: 4%;
+    margin-top: 7%;
+} */
+
+.CnxContainer > .GlobalContainerHeader > h1 {
+    /* border: 1px solid red; */
+    font-family: 'Poppins SemiBold';
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 8%;
+}
+
+.FormContainerBody > .FormContainerBodyFirstChild {
+    /* border: 2px solid green; */
+    margin-bottom: 6%;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild {
+    /* border: 2px solid fuchsia; */
+    margin-bottom: 6%;
+    margin-top: 10%;
+}
+
+.FormContainerBody > .FormContainerBodyFirstChild > .FormContainerBodyFirstChildText > Input {
+    /* border: 2px solid orange; */
+    margin-top: 3px;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildText{
+    /* border: 3px solid pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildText > a {
+    /* border: 3px solid yellow; */
+    font-size: 0.8rem;
+    color: #4F46E5;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildPassword {
+    /* border: 4px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildPassword >div:nth-child(2) {
+    /* border: 10px solid black; */
+    color: #55565A;
+    size: 10px;
+}
+
+.FormContainerFooter > .FormContainerFooterFirstChild > Input {
+    /* border: 1px solid red; */
+    margin-bottom: 1%;
+    margin-top: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    height: 12%;
+    background-color: #C886D3;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.FormContainerFooter > .FormContainerFooterSecondChild > .FormContainerFooterSecondChildText {
+    /* border: 3px solid pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FormContainerFooter > .FormContainerFooterSecondChild > .FormContainerFooterSecondChildText > Label:nth-child(1) {
+    /* border: 3px solid red; */
+    font-size: 0.8rem;
+    color: #292C33;
+}
+
+.FormContainerFooter > .FormContainerFooterSecondChild > .FormContainerFooterSecondChildText > label:nth-child(2) {
+    /* border: 3px solid pink; */
+    font-size: 0.8rem;
+    color: #4F46E5;
+}
+
+
+                    /*Code mampiditra ny Icon anaty Input */
+
+.PasswordInputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    }
+    
+    .PasswordInputContainer input {
+    /* border: 1px solid red; */
+    padding-right: 50px; /* Adjust padding to make space for the icon */
+    }
+    
+    .PasswordEyeIcon {
+    /* border: 1px solid blue; */
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    }
+
+
+
+
+                /* CSS INSCRIPTION STEP 1 */
+
+
+.InscriptionStepOneContainerForm {
+    /* border: 1px solid blue; */
+    margin-right: 8%;
+    padding: 1% 1%;
+    width: 100%;
+    /* box-shadow: 0px 0px 10px #D1D5DB;
+    border-radius: 10px; */
+}
+
+/* Header de formulaire */
+.InscriptionStepOneContainerForm > .InscriptionStepOneContainerFormHeader {
+    /* border: 1px solid red;  */
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    margin-bottom: 2%;
+}
+
+.InscriptionStepOneContainerFormHeader > :nth-child(1) {
+    font-family: 'Poppins SemiBold';
+    font-size: 2rem;
+    color: black;
+}
+
+.InscriptionStepOneContainerFormHeader > :nth-child(2) {
+    font-size: 0.8rem;
+    color: #71717A;
+}
+
+/* Body de formulaire */
+
+.InscriptionStepOneContainerFormBody > .InscriptionStepOneContainerFormBodyFirstChild {
+    margin-bottom: 3%;
+}
+
+.InscriptionStepOneContainerFormBody > .InscriptionStepOneContainerFormBodySecondChild {
+    margin-bottom: 3%;
+}
+
+.InscriptionStepOneContainerFormBody > .InscriptionStepOneContainerFormBodyLastChild {
+    margin-bottom: 3%;
+}
+
+/* Footer de formulaire */
+
+/*
+.InscriptionStepOneContainerForm > .InscriptionStepOneContainerFormBody > .InscriptionStepOneFormFooterContainer > div:nth-child(1) > Input {
+    //border: 1px solid red;
+    margin-bottom: 1%;
+    //margin-top: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    height: 12%;
+    background-color: #C886D3;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+*/
+
+.InscriptionStepOneFormFooterContainer > .InscriptionStepOneFormFooterContainerSecondChild {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InscriptionStepOneFormFooterContainer > .InscriptionStepOneFormFooterContainerSecondChild > Label:nth-child(1) {
+    font-size: 0.8rem;
+    color: #292C33;
+}
+
+.InscriptionStepOneFormFooterContainer > .InscriptionStepOneFormFooterContainerSecondChild > Label:nth-child(2) {
+    /* border: 2px solid green; */
+    font-size: 0.8rem;
+    color: #4F46E5;
+}
+
+
+
+                /* CSS INSCRIPTION STEP 2 */
+
+
+/* Body de formulaire */
+
+.InscriptionStepTwoContainerFormBodyFirstChild {
+    /* border: 1px solid red; */
+    margin-bottom: 3%;
+}
+
+.InscriptionStepTwoContainerFormBodySecondChild {
+    margin-bottom: 3%;
+}
+
+.InscriptionStepTwoContainerFormBodyLastChild {
+    margin-bottom: 3%;
+}
+
+/* Footer de formulaire */
+
+.InscriptionStepTwoContainerForm > .InscriptionStepTwoFormFooterContainer > div > Input {
+    /* border: 1px solid red; */
+    margin-bottom: 1%;
+    margin-top: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    height: 12%;
+    background-color: #C886D3;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.InscriptionStepTwoContainerForm > .InscriptionStepTwoFormFooterContainer > .InscriptionStepTwoFormFooterContainerSecondChild > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InscriptionStepTwoContainerForm > .InscriptionStepTwoFormFooterContainer > .InscriptionStepTwoFormFooterContainerSecondChild > div > Label:nth-child(1) {
+    font-size: 0.8rem;
+    color: #292C33;
+}
+
+.InscriptionStepTwoContainerForm > .InscriptionStepTwoFormFooterContainer > .InscriptionStepTwoFormFooterContainerSecondChild > div > Label:nth-child(2) {
+    font-size: 0.8rem;
+    color: #4F46E5;
+}
+
+
+
+/* hjsgsg */
+
+/*
+
+.PasswordContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.PasswordContainerEye {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.PasswordEyeIcon {
+    width: 20px;
+    height: 20px;
+    color: #71717A;
+}
+
+*/

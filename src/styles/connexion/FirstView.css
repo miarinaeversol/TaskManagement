@@ -1,0 +1,67 @@
+* {
+    font-family: 'Poppins';
+}
+
+.FirstViewContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* border: 4px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IllustrationContainer {
+    /* border: 2px solid blue; */
+    margin-left: 80px;
+}
+
+.FormContainer {
+    /* border: 2px solid blue; */
+    margin-right: 80px;
+    padding: 1% 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #D1D5DB;
+}
+
+.FormContainer > .SalutContainer > p {
+    font-family: 'Poppins SemiBold';
+    font-size: 2rem;
+    color: black;
+}
+
+.FormContainer > .SalutContainer > h6 {
+    font-family: 'Poppins SemiBold';
+    font-size: 0.9rem;
+    color: #71717A;
+    margin-bottom: 40px;
+}
+
+.BoutonContainer > .ConnexionContainer > Input {
+    background-color: #C886D3;
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: 'Poppins SemiBold';
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 16px;
+}
+
+.BoutonContainer > .CreateAcntContainer > Input {
+    background-color: #E9E8FF;
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: 'Poppins SemiBold';
+    font-size: 1rem;
+    color: #C886D3;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}

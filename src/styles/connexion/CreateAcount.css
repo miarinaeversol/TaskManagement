@@ -1,0 +1,141 @@
+*{
+    font-family: 'Poppins';
+}
+
+.CreateAcountContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 2px solid green;*/
+}
+
+.GlobalsContainer {
+    /*border: 1px solid yellow;*/
+    border-radius: 10px;
+    margin-right: 8%;
+    width: 25%;
+    padding: 1% 1%;
+    box-shadow: 0px 0px 10px #D1D5DB;
+}
+
+.CreateAcountContainer > .IllustrationContainer > img {
+    /*border: 1px solid blue;*/
+    margin-left: 4%;
+    margin-top: 7%;
+}
+
+.CreateAcountContainer > .GlobalsContainer > .GlobalContainerHeader > h1 {
+    /*border: 1px solid red;*/
+    font-family: 'Poppins SemiBold';
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 8%;
+}
+
+.FormContainerBody > .FormContainerBodyFirstChild {
+    /*border: 1px solid red;*/
+    margin-bottom: 6%;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild {
+    /*border: 1px solid red;*/
+    margin-bottom: 6%;
+    margin-top: 10%;
+}
+
+.FormContainerBody > .FormContainerBodyFirstChild > .FormContainerBodyFirstChildLabel > label {
+    /*border: 1px solid blue;*/
+    font-size: 0.8rem;
+    color: #292C33;
+}
+
+.FormContainerBody > .FormContainerBodyFirstChild > .FormContainerBodyFirstChildText > Input {
+    margin-top: 3px;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildText{
+    /*border: 3px solid pink;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildText > Label {
+    font-size: 0.8rem;
+    color: #292C33;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildText > a {
+    font-size: 0.8rem;
+    color: #4F46E5;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildPassword {
+    /* border: 4px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.FormContainerBody > .FormContainerBodySecondChild > .FormContainerBodySecondChildPassword >div:nth-child(2) {
+    color: #55565A;
+    size: 10px;
+}
+
+.FormContainerFooter > .FormContainerFooterFirstChild > Input {
+    /*border: 1px solid red;*/
+    margin-bottom: 1%;
+    margin-top: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    height: 12%;
+    background-color: #C886D3;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.FormContainerFooter > .FormContainerFooterSecondChild > .FormContainerFooterSecondChildText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FormContainerFooter > .FormContainerFooterSecondChild > .FormContainerFooterSecondChildText > Label {
+    font-size: 0.8rem;
+    color: #292C33;
+}
+
+.FormContainerFooter > .FormContainerFooterSecondChild > .FormContainerFooterSecondChildText > a {
+    font-size: 0.8rem;
+    color: #4F46E5;
+}
+
+
+                    /*Code mampiditra ny Icon anaty Input */
+
+.PasswordInputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .PasswordInputContainer input {
+    /* border: 1px solid red; */
+    padding-right: 50px; /* Adjust padding to make space for the icon */
+  }
+  
+  .PasswordEyeIcon {
+    /* border: 1px solid blue; */
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
