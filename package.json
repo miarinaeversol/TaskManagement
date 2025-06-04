@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "test:build": "npm run lint && npm run build && npm run preview",
     "preview": "vite preview"
   },
   "dependencies": {
